@@ -14,6 +14,7 @@ This has only been tested on a Minecraft server, but I would assume these script
 SETUP
 
 Define destination service address and port in "server.py"
+
 Define server.py system IP and port in client.py
 
 Run server.py on server system.
