@@ -24,3 +24,5 @@ Run server.py on server system.
 Run client.py on client system.
 
 ```python3 client.py```
+
+client.py and server.py must be the same version, as they share a tunnel protocol. If the tunnel drops, client.py reconnects automatically, and server.py keeps each game client's session open for `SESSION_TIMEOUT` seconds so a quick reconnect doesn't kick players.
